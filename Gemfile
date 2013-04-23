@@ -40,3 +40,4 @@ gem "devise"
 gem "minitest"
 gem 'activeadmin'
 gem 'meta_search', '>= 1.1.0.pre' # activeadmin needs this if Rails >= 3.1
+gem "jquery-rails"

@@ -1,4 +1,10 @@
 AuthexampleWebapp::Application.routes.draw do
+  resources :tests
+
+
+  resources :posts
+
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
