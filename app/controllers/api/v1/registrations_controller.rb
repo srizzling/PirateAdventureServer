@@ -14,7 +14,7 @@ class Api::V1::RegistrationsController < Devise::RegistrationsController
                       :info => "Registered",
                       :data => { :user => resource,
                                  :auth_token => current_user.authentication_token,
-                                 :username => current_user
+                                 :username => current_user.username
                                 } 
                     }
     else
