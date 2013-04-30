@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @treasure.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @treasure.description %>
+</p>
+
+<p>
+  <b>Hider:</b>
+  <%= @treasure.hider %>
+</p>
+
+<p>
+  <b>Seeker:</b>
+  <%= @treasure.seeker %>
+</p>
+
+<p>
+  <b>Long:</b>
+  <%= @treasure.long %>
+</p>
+
+<p>
+  <b>Lat:</b>
+  <%= @treasure.lat %>
+</p>
+
+<p>
+  <b>Keyword:</b>
+  <%= @treasure.keyword %>
+</p>
+
+<p>
+  <b>Found:</b>
+  <%= @treasure.found %>
+</p>
+
+
+<%= link_to 'Edit', edit_treasure_path(@treasure) %> |
+<%= link_to 'Back', treasures_path %>

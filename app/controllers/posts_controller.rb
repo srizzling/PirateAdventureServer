@@ -2,12 +2,6 @@ class PostsController < InheritedResources::Base
 skip_before_filter :verify_authenticity_token
 def index
     @posts = Post.all
-    
-      respond_to do |wants|
-       wants.html
-       wants.xml { render :xml => @posts.to_xml }
-       wants.json {render :json => @posts}
-   end 
 end
 
 def show
@@ -15,7 +9,7 @@ def show
   end
 
   def new
-    @posts = Post.new
+    @post = Post.new
   end
 
   def create

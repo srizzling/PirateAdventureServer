@@ -1,4 +1,10 @@
 AuthexampleWebapp::Application.routes.draw do
+  resources :high_scores
+
+
+  resources :treasures
+
+
   resources :tests
 
 
