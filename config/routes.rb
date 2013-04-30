@@ -1,4 +1,7 @@
 AuthexampleWebapp::Application.routes.draw do
+  resources :highscores
+
+
   resources :high_scores
 
 
