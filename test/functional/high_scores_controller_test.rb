@@ -18,7 +18,7 @@ class HighScoresControllerTest < ActionController::TestCase
 
   test "should create high_score" do
     assert_difference('HighScore.count') do
-      post :create, high_score: { float: @high_score.float, username: @high_score.username }
+      post :create, high_score: { float: @high_score.float, itemname: @high_score.itemname, username: @high_score.username }
     end
 
     assert_redirected_to high_score_path(assigns(:high_score))
@@ -35,7 +35,7 @@ class HighScoresControllerTest < ActionController::TestCase
   end
 
   test "should update high_score" do
-    put :update, id: @high_score, high_score: { float: @high_score.float, username: @high_score.username }
+    put :update, id: @high_score, high_score: { float: @high_score.float, itemname: @high_score.itemname, username: @high_score.username }
     assert_redirected_to high_score_path(assigns(:high_score))
   end
 

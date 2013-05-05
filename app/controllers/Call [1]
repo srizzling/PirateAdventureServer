@@ -1,0 +1,76 @@
+Call [1]
+Metric 1: Pages used at call[1] = [57593]
+Metric 2: I/O Ops at call [1] = [58813]
+Metric 3: Initial Call, CPU measured not calculated
+
+Call [2]
+Metric 1: Pages used at call[2] = [57586]
+Metric 2: I/O Ops at call [2] = [58906]
+Metric 3: at call [2], Average CPU usage since start = [5]
+
+Call [3]
+Metric 1: Pages used at call[3] = [57589]
+Metric 2: I/O Ops at call [3] = [58952]
+Metric 3: at call [3], Average CPU usage since start = [4]
+
+Call [4]
+Metric 1: Pages used at call[4] = [57588]
+Metric 2: I/O Ops at call [4] = [59000]
+Metric 3: at call [4], Average CPU usage since start = [4]
+
+Call [5]
+Metric 1: Pages used at call[5] = [57589]
+Metric 2: I/O Ops at call [5] = [59001]
+Metric 3: at call [5], Average CPU usage since start = [3]
+
+SITUATION 2:
+Call [1]
+Metric 1: Pages used at call[1] = [108873]
+Metric 2: I/O Ops at call [1] = [105925]
+Metric 3: Initial Call, CPU measured not calculated
+
+Call [2]
+Metric 1: Pages used at call[2] = [109450]
+Metric 2: I/O Ops at call [2] = [106086]
+Metric 3: at call [2], Average CPU usage since start = [43]
+
+Call [3]
+Metric 1: Pages used at call[3] = [109337]
+Metric 2: I/O Ops at call [3] = [106208]
+Metric 3: at call [3], Average CPU usage since start = [45]
+
+Call [4]
+Metric 1: Pages used at call[4] = [109295]
+Metric 2: I/O Ops at call [4] = [106338]
+Metric 3: at call [4], Average CPU usage since start = [43]
+
+Call [5]
+Metric 1: Pages used at call[5] = [109367]
+Metric 2: I/O Ops at call [5] = [106450]
+Metric 3: at call [5], Average CPU usage since start = [42]
+
+Situation 3:
+Call [1]
+Metric 1: Pages used at call[1] = [362893]
+Metric 2: I/O Ops at call [1] = [133823]
+Metric 3: Initial Call, CPU measured not calculated
+
+Call [2]
+Metric 1: Pages used at call[2] = [362888]
+Metric 2: I/O Ops at call [2] = [133890]
+Metric 3: at call [2], Average CPU usage since start = [100]
+
+Call [3]
+Metric 1: Pages used at call[3] = [362881]
+Metric 2: I/O Ops at call [3] = [133973]
+Metric 3: at call [3], Average CPU usage since start = [100]
+
+Call [4]
+Metric 1: Pages used at call[4] = [362880]
+Metric 2: I/O Ops at call [4] = [133973]
+Metric 3: at call [4], Average CPU usage since start = [100]
+
+Call [5]
+Metric 1: Pages used at call[5] = [362877]
+Metric 2: I/O Ops at call [5] = [134018]
+Metric 3: at call [5], Average CPU usage since start = [100]

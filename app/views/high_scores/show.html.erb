@@ -10,6 +10,11 @@
   <%= @high_score.float %>
 </p>
 
+<p>
+  <b>Itemname:</b>
+  <%= @high_score.itemname %>
+</p>
+
 
 <%= link_to 'Edit', edit_high_score_path(@high_score) %> |
 <%= link_to 'Back', high_scores_path %>

@@ -2,8 +2,10 @@
 
 one:
   username: MyString
-  float: 
+  float: 1
+  itemname: MyString
 
 two:
   username: MyString
-  float: 
+  float: 1
+  itemname: MyString
