@@ -5,20 +5,11 @@ class TreasureObserver < ActiveRecord::Observer
 		length=5
 		found=treasure.found
 
-		
-
-
-
 		random_string=rand(36**length).to_s(36)
 	    treasure.keyword=random_string
 
 	end
 
-	def before_save(treasure)
-		if found == true
-			treasure.seeker=current_user.id
-		end
-	end
 
 	def after_create(treasure)
 		found=treasure.found
